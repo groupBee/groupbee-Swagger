@@ -1,0 +1,18 @@
+springdoc:
+  swagger-ui:
+    urls[0]:
+      name: Employee API
+      url: ${API_GATEWAY}
+    urls[1]:
+      name: Book API
+      url: ${API_GATEWAY}/api/advisor/v3/api-docs
+    urls[2]:
+      name: Calendar API
+      url: ${API_GATEWAY}/api/mtnw/v3/api-docs
+    urls[3]:
+      name: Comment API
+      url: ${API_GATEWAY}/api/payment/v3/api-docs
+    urls[4]:
+      name: Attendance API
+      url: ${API_GATEWAY}/api/v1/ticket/v3/api-docs
+    path: /api/docs
