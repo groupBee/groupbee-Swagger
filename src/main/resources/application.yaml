@@ -2,22 +2,22 @@ springdoc:
   swagger-ui:
     urls[0]:
       name: Employee API
-      url: ${API_GATEWAY}
-    urls[1]:
-      name: Book API
-      url: ${API_GATEWAY}/api/book/swagger
-    urls[2]:
-      name: Calendar API
-      url: ${API_GATEWAY}/api/calendar/swagger
-    urls[3]:
-      name: Comment API
-      url: ${API_GATEWAY}/api/comment/swagger
-    urls[4]:
-      name: Attendance API
-      url: ${API_GATEWAY}/api/attendance/swagger
-    urls[5]:
-      name: ElecApp API
-      url: ${API_GATEWAY}/api/elecapp/swagger-ui/index.html
+      url: ${API_GATEWAY}/api/employee/v3/api-docs
+#    urls[1]:
+#      name: Book API
+#      url: ${API_GATEWAY}/api/book/swagger
+#    urls[2]:
+#      name: Calendar API
+#      url: ${API_GATEWAY}/api/calendar/swagger
+#    urls[3]:
+#      name: Comment API
+#      url: ${API_GATEWAY}/api/comment/swagger
+#    urls[4]:
+#      name: Attendance API
+#      url: ${API_GATEWAY}/api/attendance/swagger
+#    urls[5]:
+#      name: ElecApp API
+#      url: ${API_GATEWAY}/api/elecapp/swagger-ui/index.html
     path: /api/docs
 server:
   port: 9522
